@@ -2,27 +2,500 @@
     <head>
         <style>
             .mainDiv{
-                margin:auto;
-                border: 1px outset white;
+                margin:auto;               
                 background-color: black;
-                width: 75%;
-                height: 100%;
+                border-style: none outset none inset;
+                border-width: 1px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+
+                border-color: white;
+                width: 50%;
+                
             }
+
+            .myFirstModelSlide .flintlockSlide .shotgunSlide .lastWordSlide .revolverSlide .strafeSlide .recordPlayerSlide .kaboomSlide .lowPolyMeSlide .runnerSlide {display: none;}
+
+
+            /* Slideshow container */
+            .slideshow-container {
+                margin:auto;
+                border-style: inset outset inset inset;
+                border-width: 1px;
+                width:80%;
+                position: relative;
+                max-width: 1000px;
+            }    
+
+            .numberText {
+              color: white;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            .vertCount {
+                color: whitesmoke;
+                font-size: 14px;
+                right: 0;
+                bottom:0;
+                position:absolute;
+            }
+            .softwareArea {
+                left:0;
+                bottom:0;
+                position:absolute;
+            }
+
+            .prev, .next {
+                cursor: pointer;
+                top: 50%;
+                position: absolute;
+                padding: 12x;
+                margin-top: -22px;
+                width: auto;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+            .prev{
+                left:0;
+            }
+            
+            .next {
+                border-radius: 3px 0 0 3px;
+                right: 0;
+            }
+            .prev:hover, .next:hover {
+                background-color: #f1f1f1;
+                color: black;
+            }
+
+            table, tr, td { 
+                text-align: center;
+                color: white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+                
         </style>
     </head>
     <title> 3D Modeling & More! </title>
     <body background="../resources/background.gif">
         <div class="mainDiv">
+            <p><font color ="white"><marquee scrollamount="20">3D models! vfx! texturing!</marquee></font></p>
+            <hr style="height:3px">
+            <p style="text-align: center; color: white;">
+                <a href="../index.html"><img src="../resources/buttons/BackHome.gif" alt="Back to Main Page!" height="60"></a>
+                <a href="../pages/programming.html"><img src="../resources/buttons/Programming.gif" alt="A Page about my Programming Journey!" height="60"></a>
+                <a href="../pages/models.html"><img src ="../resources/buttons/Models.gif" alt="A Page about some Models I've Made!" height="60"></a>
+                <a href="../pages/about.html"><img src ="../resources/buttons/AboutMe.gif" alt="A Page about Me!" height="60"></a><br></p>
+            <hr style="height:3px">
             <font color ="white">
-                gotta put my models and things here!<br>
-                I got into 3D modeling main beacuse of Game Development back in 2016 picking up Blender. Later at Community College I was taught Maya, ZBrush Substance Painter, and Houdini!<br>
+                
+                Software I've used on this Page!<br>
+                <table>
+                    <tr>
+                        <td> <img src="../resources/images/models/blender.gif"> <br>Blender</td>
+                        <td> <img src="../resources/images/models/maya.gif"> <br>Maya</td>
+                        <td> <img src="../resources/images/models/houdini.gif"> <br>Houdini</td>
+                        <td> <img src="../resources/images/models/substance.gif"> <br>Substance Painter</td>
+                    </tr>
+                </table>
+
+                I got into 3D modeling main beacuse of Game Development back in mid 2016 and picking up Blender a little white after. Later at Community College I was taught Maya, ZBrush Substance Painter, and Houdini!<br><br>
         
-                You might see models from other projects in here!<br>
-                <a href="projects.html"> Back to Projects Page</a><br>
+                This is in ordered from recent to oldest.
+                You might see models and things from other projects in here!<br><br>
+
+                <div class ="slideshow-container"> <!-- Runner -->
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 2/8</div>
+                        <img src="../resources/images/models/runner/maincharacter_wire1.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 3,485 | Faces: 3,452 | Tris 6,874</div>
+                    </div>
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 3/8</div>
+                        <img src="../resources/images/models/runner/maincharacter_base2.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 3,485 | Faces: 3,452 | Tris 6,874</div>
+                    </div>
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 4/8</div>
+                        <img src="../resources/images/models/runner/maincharacter_wire2.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 3,485 | Faces: 3,452 | Tris 6,874</div>
+                    </div>
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 5/8</div>
+                        <img src="../resources/images/models/runner/pistol_base1.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 208 | Faces: 186 | Tris 364</div>
+                    </div>
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 6/8</div>
+                        <img src="../resources/images/models/runner/pistol_wire1.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 208 | Faces: 186 | Tris 364</div>
+                    </div>
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 7/8</div>
+                        <img src="../resources/images/models/runner/pistol_base2.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 208 | Faces: 186 | Tris 364</div>
+                    </div>
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 8/8</div>
+                        <img src="../resources/images/models/runner/pistol_wire2.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 208 | Faces: 186 | Tris 364</div>
+                    </div>
+                    <div class ="runnerSlide">
+                        <div class = "numberText"> 1/8</div>
+                        <img src="../resources/images/models/runner/maincharacter_base1.gif"style="width: 100%;">
+                        <div class="vertCount">Verts: 3,485 | Faces: 3,452 | Tris 6,874</div>
+                    </div>
+                    
+                    <div class ="softwareArea"><img src="../resources/images/models/blender.gif" style="width: 40px;"></div>
+                    <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> Codename: Runner - August 2022  </div>
+                <div style ="margin:auto; width: 70%;"> Codename: Runner has a full body as you can see yourself. The game has full IK when picking up Items. As a prototype I put both of these together! </div><br><br>
+
+                
+
+
+                <div class ="slideshow-container"> <!-- Low Poly Me -->
+                    <div class ="lowPolyMeSlide">
+                        <div class = "numberText"> 2/4</div>
+                        <img src="../resources/images/models/low poly me/me_wire1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lowPolyMeSlide">
+                        <div class = "numberText"> 3/4</div>
+                        <img src="../resources/images/models/low poly me/me_base2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lowPolyMeSlide">
+                        <div class = "numberText"> 4/4</div>
+                        <img src="../resources/images/models/low poly me/me_wire2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lowPolyMeSlide">
+                        <div class = "numberText"> 1/4</div>
+                        <img src="../resources/images/models/low poly me/me_base1.gif"style="width: 100%;">
+                    </div>
+                    <div class="vertCount">Verts: 310 | Faces: 288 | Tris 532</div>
+                    <div class ="softwareArea"><img src="../resources/images/models/blender.gif" style="width: 40px;" >
+                        <img src="../resources/images/models/substance.gif" style="width: 40px;" ></div>
+                    <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> Low Poly Me - August 2022  </div>
+                <div style ="margin:auto; width: 70%;"> This is something I threw together for a small animation test. It was mainly a way for me to get back into using Substance Painter really. Quite happy with how it turned out!</div><br><br>
+
+                <div class ="slideshow-container"> <!-- KABOOM -->
+                    <div class ="kaboomSlide">
+                        <video width="100%" controls>
+                            <source src="../resources/images/models/kaboom/VFX Kaboom.mp4" type="video/mp4">
+                            Your Browswer does NOT support the video tag..
+                        </video>
+                    </div>
+                    <div class ="softwareArea"><img src="../resources/images/models/houdini.gif" style="width: 40px;" ></div>
+                    
+                </div>
+                <div style ="font-size:20px"> Kaboom! - Oct 2021  </div>
+                <div style ="margin:auto; width: 70%;"> This VFX is based on the Nukem from The Borderlands Franchise. I added the Kaboom! as I wanted to add a cartoony ascept ontop of the already ridiculous explosion!</div><br><br>
+
+
+                
+                <div class ="slideshow-container"> <!-- Record Player -->
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 2/11</div>
+                        <img src="../resources/images/models/record player/recordplayer_wire1.gif"style="width: 100%;">
+                        <div class ="softwareArea"><img src="../resources/images/models/maya.gif" style="width: 40px;" ></div>
+                        <div class="vertCount">Verts: 26,748 | Faces: 26,708 | Tris 54,516</div>
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 3/11</div>
+                        <img src="../resources/images/models/record player/recordplayer_base2.gif"style="width: 100%;">
+                        <div class ="softwareArea"><img src="../resources/images/models/maya.gif" style="width: 40px;" ></div>
+                        <div class="vertCount">Verts: 26,748 | Faces: 26,708 | Tris 54,516</div>
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 4/11</div>
+                        <img src="../resources/images/models/record player/recordplayer_wire2.gif"style="width: 100%;">
+                        <div class ="softwareArea"><img src="../resources/images/models/maya.gif" style="width: 40px;" ></div>
+                        <div class="vertCount">Verts: 26,748 | Faces: 26,708 | Tris 54,516</div>
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 5/11</div>
+                        <img src="../resources/images/models/record player/recordplayer_base3.gif"style="width: 100%;">
+                        <div class ="softwareArea"><img src="../resources/images/models/maya.gif" style="width: 40px;" ></div>
+                        <div class="vertCount">Verts: 26,748 | Faces: 26,708 | Tris 54,516</div>
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 6/11</div>
+                        <img src="../resources/images/models/record player/recordplayer_wire3.gif"style="width: 100%;">
+                        <div class ="softwareArea"><img src="../resources/images/models/maya.gif" style="width: 40px;" ></div>
+                        <div class="vertCount">Verts: 26,748 | Faces: 26,708 | Tris 54,516</div>
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 7/11</div>
+                        <img src="../resources/images/models/record player/Main2K01.png"style="width: 100%;">
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 8/11</div>
+                        <img src="../resources/images/models/record player/Main2K02.png"style="width: 100%;">
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 9/11</div>
+                        <img src="../resources/images/models/record player/Main2K03.png"style="width: 100%;">
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 10/11</div>
+                        <img src="../resources/images/models/record player/Main2K04.png"style="width: 100%;">
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 11/11</div>
+                        <video width="100%"controls onloadstart="this.volume=0.3">
+                            <source src="../resources/images/models/record player/Recordplayer Composite-1.mp4" type="video/mp4">
+                            Your Browswer does NOT support the video tag..
+                        </video>
+                    </div>
+                    <div class ="recordPlayerSlide">
+                        <div class = "numberText"> 1/11</div>
+                        <img src="../resources/images/models/record player/recordplayer_base1.gif" style="width: 100%;">
+                        <div class ="softwareArea"><img src="../resources/images/models/maya.gif" style="width: 40px;" ></div>
+                        <div class="vertCount">Verts: 26,748 | Faces: 26,708 | Tris 54,516</div>
+                    </div>
+
+                    
+                    <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> Record Player - July 2020  </div>
+                <div style ="margin:auto; width: 70%;"> This Record Player model is based of a record player I own! We had to recreate an object we owned and track it to some footage. There is 4 2K Renders and the final composite in here too! Despite the awful topology I'm still quite proud of this!   </div><br><br>
+
+                
+
+                <div class ="slideshow-container"> <!-- STRAFE -->
+                    <div class ="strafeSlide">
+                        <div class = "numberText"> 2/6</div>
+                        <img src="../resources/images/models/strafe/strafe_wire1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="strafeSlide">
+                        <div class = "numberText"> 3/6</div>
+                        <img src="../resources/images/models/strafe/strafe_base2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="strafeSlide">
+                        <div class = "numberText"> 4/6</div>
+                        <img src="../resources/images/models/strafe/strafe_wire2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="strafeSlide">
+                        <div class = "numberText"> 5/6</div>
+                        <img src="../resources/images/models/strafe/strafe_base3.gif"style="width: 100%;">
+                    </div>
+                    <div class ="strafeSlide">
+                        <div class = "numberText"> 6/6</div>
+                        <img src="../resources/images/models/strafe/strafe_wire3.gif"style="width: 100%;">
+                    </div>
+                    <div class ="strafeSlide">
+                        <div class = "numberText"> 1/6</div>
+                        <img src="../resources/images/models/strafe/strafe_base1.gif"style="width: 100%;">
+                    </div>
+                    <div class="vertCount">Verts: 243 | Faces: 251 | Tris 446</div>
+                    <div class ="softwareArea"><img src="../resources/images/models/blender.gif" style="width: 40px;" ></div>
+                    <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> STRAFE Shotgun - May 2020  </div>
+                <div style ="margin:auto; width: 70%;"> This shotgun is based on a shotgun from STRAFE, a game I adore. I took screenshots and recreated it all and used Photoshop for the textures which is a bit overkill for the 90's Quake styled game STRAFE is trying to emulate.. </div><br><br>
+
+
+                <div class ="slideshow-container"> <!-- revolver -->
+                    <div class ="revolverSlide">
+                        <div class = "numberText"> 2/4</div>
+                        <img src="../resources/images/models/revolver/revolver_wire1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="revolverSlide">
+                        <div class = "numberText"> 3/4</div>
+                        <img src="../resources/images/models/revolver/revolver_base2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="revolverSlide">
+                        <div class = "numberText"> 4/4</div>
+                        <img src="../resources/images/models/revolver/revolver_wire2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="revolverSlide">
+                        <div class = "numberText"> 1/4</div>
+                        <img src="../resources/images/models/revolver/revolver_base1.gif"style="width: 100%;">
+                    </div>
+                    <div class="vertCount">Verts: 7,784 | Faces: 8,030 | Tris 15,554</div>
+                    <div class ="softwareArea"><img src="../resources/images/models/maya.gif" style="width: 40px;" ></div>
+                    <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> Revolver - March 2020  </div>
+                <div style ="margin:auto; width: 70%;"> This revolver is loosely based on Colt Single Action revolvers. This is also my first real time using Maya other than simple stuff! Was created for an Animation formative, I went a bit overboard with it. It's.. Very dense poly wise.. Everything is functional though! All mechanisms move and function! </div><br><br>
+
+
+                <div class ="slideshow-container"> <!-- Last Word -->
+                    <div class ="lastWordSlide">
+                        <div class = "numberText"> 2/6</div>
+                        <img src="../resources/images/models/last word/lastword_wire1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lastWordSlide">
+                        <div class = "numberText"> 3/6</div>
+                        <img src="../resources/images/models/last word/lastword_base2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lastWordSlide">
+                        <div class = "numberText"> 4/6</div>
+                        <img src="../resources/images/models/last word/lastword_wire2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lastWordSlide">
+                        <div class = "numberText"> 5/6</div>
+                        <img src="../resources/images/models/last word/lastword_base3.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lastWordSlide">
+                        <div class = "numberText"> 6/6</div>
+                        <img src="../resources/images/models/last word/lastword_wire3.gif"style="width: 100%;">
+                    </div>
+                    <div class ="lastWordSlide">
+                        <div class = "numberText"> 1/6</div>
+                        <img src="../resources/images/models/last word/lastword_base1.gif"style="width: 100%;">
+                    </div>
+                    <div class="vertCount">Verts: 2,061 | Faces: 2,257 | Tris 4,106</div>
+                    <div class ="softwareArea"><img src="../resources/images/models/blender.gif" style="width: 40px;" ></div>
+                    <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> Last Word - February 2020  </div>
+                <div style ="margin:auto; width: 70%;"> This is the Last Word From Destiny 1/2. I LOVE cowboy stuff and if you're familiar with the game it's written all over it. While I never got around to texturing it, I'm still quite proud of it for not having learn 3D modelling workflow at this point </div><br><br>
+
+                <div class ="slideshow-container"> <!-- Shotgun -->
+                    <div class ="shotgunSlide">
+                        <div class = "numberText"> 2/4</div>
+                        <img src="../resources/images/models/shotgun/shotgun_wire1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="shotgunSlide">
+                        <div class = "numberText"> 3/4</div>
+                        <img src="../resources/images/models/shotgun/shotgun_base2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="shotgunSlide">
+                        <div class = "numberText"> 4/4</div>
+                        <img src="../resources/images/models/shotgun/shotgun_wire2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="shotgunSlide">
+                        <div class = "numberText"> 1/4</div>
+                        <img src="../resources/images/models/shotgun/shotgun_base1.gif"style="width: 100%;">
+                    </div>
+                    <div class="vertCount">Verts: 167  | Faces: 160 | Tris: 332</div>
+                    <div class ="softwareArea"><img src="../resources/images/models/blender.gif" style="width: 40px;" ></div>
+                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> Short Shotgun - March 2019  </div>
+                <div style ="margin:auto; width: 70%;"> This shotgun was one of the first time I used Blender's built in texture painting. It has a slight cartoony style and I don't quite remember what project I created this for</div><br><br>
+
+                
+
+                <div class ="slideshow-container"> <!-- Board the Ship-->
+                    <div class ="flintlockSlide">
+                        <div class = "numberText"> 1/4</div>
+                        <img src="../resources/images/models/boardtheship/flintlock_base1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="flintlockSlide">
+                        <div class = "numberText"> 2/4</div>
+                        <img src="../resources/images/models/boardtheship/flintlock_wire1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="flintlockSlide">
+                        <div class = "numberText"> 3/4</div>
+                        <img src="../resources/images/models/boardtheship/flintlock_base2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="flintlockSlide">
+                        <div class = "numberText"> 4/4</div>
+                        <img src="../resources/images/models/boardtheship/flintlock_wire2.gif"style="width: 100%;">
+                    </div>
+                    <div class="vertCount">Verts: 537 | Faces: 528 | Tris: 1,077</div>
+                    <div class ="softwareArea"><img src="../resources/images/models/blender.gif" style="width: 40px;" ></div>
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+
+                <div style ="font-size:20px"> Flintlock Pistol - December 2018  </div>
+                <div style ="margin:auto; width: 70%;"> This one Flintlock pistol I made for the game 'Board The Ship'. The Hammer/Cock and Pan/Frizzen both are seperate as I wanted to properly animate them, which was quite new to me at the time! </div><br><br>
+
+                 <div class ="slideshow-container"> <!-- First Model-->
+                    <div class ="myFirstModelSlide">
+                        <div class = "numberText"> 1/5</div>
+                        <img src="../resources/images/models/firstmodel/first_base1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="myFirstModelSlide">
+                        <div class = "numberText"> 2/5</div>
+                        <img src="../resources/images/models/firstmodel/first_wire1.gif"style="width: 100%;">
+                    </div>
+                    <div class ="myFirstModelSlide">
+                        <div class = "numberText"> 3/5</div>
+                        <img src="../resources/images/models/firstmodel/first_base2.gif"style="width: 100%;">
+                    </div>
+                    <div class ="myFirstModelSlide">
+                        <div class = "numberText"> 4/5</div>
+                        <img src="../resources/images/models/firstmodel/first_base3.gif"style="width: 100%;">
+                    </div>
+                    <div class ="myFirstModelSlide">
+                        <div class = "numberText"> 5/5</div>
+                        <img src="../resources/images/models/firstmodel/first_base4.gif"style="width: 100%;">
+                    </div>
+                    <div class="vertCount">Verts: 65 | Faces: 24 | Tris: 48</div>
+                    <div class ="softwareArea"><img src="../resources/images/models/blender.gif" style="width: 40px;" ></div>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+                <div style ="font-size:20px"> My First Model - Christmas Day 2016  </div>
+                <div style ="margin:auto; width: 70%;"> This is my first Model I ever made. No clue what this was made for. My favourite aspects of the model is the entire model isn't centre. Another is the 30 odd vertices doing nothing. With my favourite part being the top. Such simpler times...</div><br><br>
+
+                
+
+                <a href="javascript:topFunction()"> Return To top!</a><br>
+
+
+                 <a href="projects.html"> Back to Projects Page</a><br>
                 <a href="../index.html"> Back to Main Page</a><br>
 
             </font>
         </div>
-        
+        <script>
+            let slideIndex = [1,1];
+            let slideId = ["myFirstModelSlide", "flintlockSlide","shotgunSlide","lastWordSlide","revolverSlide","strafeSlide", "recordPlayerSlide","kaboomSlide","lowPolyMeSlide", "runnerSlide"];
+            showSlides(1, 0);
+            showSlides(1, 1);
+            showSlides(0, 2);
+            showSlides(0, 3);
+            showSlides(0, 4);
+            showSlides(0, 5);
+            showSlides(0, 6);
+            showSlides(0, 7);
+            showSlides(0, 8);
+            showSlides(0, 9);
+            
+            function plusSlides(n, no) {
+              showSlides(slideIndex[no] += n, no);
+              
+            }
+            
+            function showSlides(n, no) {
+              let i;
+              let x = document.getElementsByClassName(slideId[no]);
+              //console.log(x.length);
+              //strange bug? because after the first 0 it thinks everything is +1?? html at it's finest. or just my coding
+              if (n > x.length) {slideIndex[no] = 1}    
+              if (n < 1) {slideIndex[no] = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex[no]-1].style.display = "block";  
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+            </script>
     </body>
 </html>
