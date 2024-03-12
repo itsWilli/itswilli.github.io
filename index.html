@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html style="height: 100%;">
     <head>
         <style>
             .mainDiv{
@@ -7,15 +8,47 @@
                 border-style: none outset none inset;
                 border-width: 1px;
                 font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+
                 border-color: white;
                 width: 50%;
-                height:100%;
+                height: 100%;
+                
             }
+
+            .blogMain{
+                margin:auto;
+                border-style: inset outset inset inset;
+                border-width: 1px;
+                padding: 10px;
+                width:80%;
+                text-align: left;
+                position: relative;
+                max-width: 1000px;
+                color: white;
+            }  
+
+            a:link {
+                color: white;
+                text-decoration:underline;
+                background-color: transparent;
+            }
+            a:visited {
+                color: white;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #d0d0d0;
+                text-decoration: underline;
+                background-color: transparent;
+            }
+
         </style>
     </head>
 <title> Welcome to Will's Website! </title>
 
-    <body background="resources/background.gif">
+    <body background="resources/background.gif" style="height: 100%;">
         <div class="mainDiv">        
             <p><font color ="white"><marquee scrollamount="20">welcome! welcome! welcome!</marquee></font></p>
             <hr style="height:3px">
@@ -25,12 +58,33 @@
                 <a href="pages/models.html"><img src ="resources/buttons/Models.gif" alt="A Page about some Models I've Made!" height="60"></a>
                 <a href="pages/about.html"><img src ="resources/buttons/AboutMe.gif" alt="A Page about Me!" height="60"></a><br></p>
             <hr style="height:3px">
-            <font type color="white">Welcome to my little space!</font><br>
-            <font color="white"> I'm Will and I hope you enjoy your stay!</font><br>
-                <a href="test.html">here</a>
-          
+            <div style ="font-size:20px; color:white;">Welcome to my little space! </div>
+            <font color="white"> I'm Will and I hope you enjoy your stay! This is my personal website where you can see my previous work and see me ramble!<br><br>
+                 I'll update date this main page periodically.<br> If you enjoy my work or want to see more posts then contact me! Said info is on the 'About me' page!</font><br>
+
+
+            <hr style="height: 3px;"><br>
+            <div style="font-size: 20px; color: white;">Blog Post 01 - Hello Website! - 11/03/24</div><br>
+            <div class ="blogMain">
+                G'day! This is my first 'blog', I suppose!<br>
+                I hope that with this being posted on the internet, I can say that I've actually completed a real project. Even if I wanted this done weeks ago..
+
+                Anywho, welcome! As I've said, I've always wanted a way for me to put something online, and I hope this is a way for me to do so! I love creating, even if someone else enjoys my ramblings, complete with amazing grammar and English.<br>
+
+                Other than this website, I've had the urge to learn OpenGL properly and do something other than just follow tutorials and giving up. The 'Carrot Game' is mainly OpenGL 1.1 fixed pipeline that I made on a Windows XP VM. It's pretty clunky!<br>
+                I might post some of those updates inside of the next blog post. Speaking of that...<br>
+                When will I update this blog and the rest of the website? I'm not sure! I hope whenever I have the motivation or a new project to talk about! You can flick through an email on my about me page; I'd love to chat!<br><br>
+                
+                <div style="text-align: center;">I hope that whenever you're reading this, you have a good rest of your day or night!<br>
+                Cheers - Will</div>
+            </div><br>
+            
+
            
         </div>
+
+
+       
         
     </body>
 </html>
